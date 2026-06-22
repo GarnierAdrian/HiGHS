@@ -32,6 +32,7 @@ classifiers = [
 
 [project.optional-dependencies]
 test = ["pytest", "numpy"]
+docs = ["sphinx", "sphinx-autoapi", "furo"]
 
 [tool.scikit-build]
 cmake.args = ["-DPYTHON_BUILD_SETUP=ON"]
