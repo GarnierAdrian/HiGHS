@@ -36,6 +36,7 @@ classifiers = [
 [project.optional-dependencies]
 test = ["pytest", "numpy"]
 extras = ["highspy-extras==1.15.1"]
+docs = ["griffe"]
 
 [tool.scikit-build]
 wheel.expand-macos-universal-tags = true
